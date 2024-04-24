@@ -1,0 +1,156 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    animation: floweranimation 10s linear infinite;
+}
+@keyframes floweranimation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.parent > div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.common{
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    transform-origin: right bottom;
+    opacity: 0.5;
+}
+.leaf1{
+    background-color: orange;
+    transform: rotateZ(0deg);
+}
+.leaf2{
+    background-color: blue;
+    transform: rotateZ(11.25deg);
+}
+.leaf3{
+    background-color: purple;
+    transform: rotateZ(22.5deg);
+}
+.leaf4{
+    background-color: blueviolet;
+    transform: rotateZ(33.75deg);
+}
+.leaf5{
+    background-color: cornflowerblue;
+    transform: rotateZ(45deg);
+}
+.leaf6{
+    background-color: #8b008b;
+    transform: rotateZ(56.25deg);
+}
+.leaf7{
+    background-color: darkorchid;
+    transform: rotateZ(67.5deg);
+}
+.leaf8{
+    background-color: darkslateblue;
+    transform: rotateZ(78.75deg);
+}
+.leaf9{
+    background-color: darkturquoise;
+    transform: rotateZ(90deg);
+}
+.leaf10{
+    background-color: deeppink;
+    transform: rotateZ(101.25deg);
+}
+.leaf11{
+    background-color: MediumSeaGreen;
+    transform: rotateZ(112.5deg);
+}
+.leaf12{
+    background-color: Aqua;
+    transform: rotateZ(123.75deg);
+}
+.leaf13{
+    background-color: CadetBlue;
+    transform: rotateZ(135deg);
+}
+.leaf14{
+    background-color: Chartreuse;
+    transform: rotateZ(146.25deg);
+}
+.leaf15{
+    background-color: DarkGoldenRod;
+    transform: rotateZ(157.5deg);
+}
+.leaf16{
+    background-color: DarkKhaki;
+    transform: rotateZ(168.75deg);
+}
+.leaf17{
+    background-color: DarkSalmon;
+    transform: rotateZ(180deg);
+}
+.leaf18{
+    background-color: DimGrey;
+    transform: rotateZ(191.25deg);
+}
+.leaf19{
+    background-color: FireBrick;
+    transform: rotateZ(202.5deg);
+}
+.leaf20{
+    background-color: HotPink;
+    transform: rotateZ(213.75deg);
+}
+.leaf21{
+    background-color: IndianRed;
+    transform: rotateZ(225deg);
+}
+.leaf22{
+    background-color: Lavender;
+    transform: rotateZ(236.25deg);
+}
+.leaf23{
+    background-color: LightBlue;
+    transform: rotateZ(247.5deg);
+}
+.leaf24{
+    background-color: LightSeaGreen;
+    transform: rotateZ(258.75deg);
+}
+.leaf25{
+    background-color: Maroon;
+    transform: rotateZ(270deg);
+}
+.leaf26{
+    background-color: MediumPurple;
+    transform: rotateZ(281.25deg);
+}
+.leaf27{
+    background-color: NavajoWhite;
+    transform: rotateZ(292.5deg);
+}
+.leaf28{
+    background-color: PaleGreen;
+    transform: rotateZ(303.75deg);
+}
+.leaf29{
+    background-color: PowderBlue;
+    transform: rotateZ(315deg);
+}
+.leaf30{
+    background-color: SeaGreen;
+    transform: rotateZ(326.25deg);
+}
+.leaf31{
+    background-color: YellowGreen;
+    transform: rotateZ(337.5deg);
+}
+.leaf32{
+    background-color: Tomato;
+    transform: rotateZ(348.75deg);
+}
